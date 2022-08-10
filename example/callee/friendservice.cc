@@ -4,6 +4,7 @@
 #include "mprpcapplication.h"
 #include "rpcprovider.h"
 #include <vector>
+#include "logger.h"
 // #include "logger.h"
 
 class FriendService : public fixbug::FiendServiceRpc
@@ -40,8 +41,8 @@ public:
 
 int main(int argc, char **argv)
 {
-    std::cout<<"ddddd"<<std::endl;
-    std::cout<<"ddddd"<<std::endl;
+    LOG_ERR("test LOG_ERR");
+    LOG_INFO("friendservice start");
 
     // 调用框架的初始化操作
     MprpcApplication::Init(argc, argv);
