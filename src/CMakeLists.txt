@@ -5,6 +5,7 @@ set(SRC_LIST
     mprpcconfig.cc
     rpcheader.pb.cc 
     mprpcchannel.cc
+    mprpccontroller.cc
     )
 # muduo是静态库，因此这里也生成静态库
 add_library(mprpc ${SRC_LIST})
