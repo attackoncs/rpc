@@ -7,7 +7,8 @@ set(SRC_LIST
     mprpcchannel.cc
     mprpccontroller.cc
     logger.cc
+    zookeeperutil.cc
     )
 # muduo是静态库，因此这里也生成静态库
 add_library(mprpc ${SRC_LIST})
-target_link_libraries(mprpc  muduo_net muduo_base  pthread)
+target_link_libraries(mprpc muduo_net muduo_base pthread zookeeper_mt)
