@@ -1,0 +1,1 @@
+run main folder `autobuild.sh` then generate static lib and header files 
