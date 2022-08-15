@@ -1,6 +1,6 @@
 # 分布式网络通信rpc框架
 ## quick start
-安装zookeeper、muduo、protobuf、cmake，直接运行autobuild.sh即可
+安装zookeeper、muduo、protobuf、cmake，直接运行autobuild.sh即可，博客[链接](https://blog.csdn.net/woodslay/article/details/126352090)
 ## 分布式网络通信rpc框架
 项目是分布式网络通信rpc框架（项目源代码[链接](https://github.com/attackoncs/rpc)）
 [博文](https://blog.csdn.net/woodslay/article/details/126295477)中提到单机服务器的缺点：
